@@ -1,0 +1,6 @@
+pipelines:
+  branches:
+    master:
+      - step: name:just testing
+      script:
+        - echo "Hello World"
